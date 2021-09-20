@@ -12,7 +12,7 @@ class App extends Component {
       },
       todoList: []
     };
-
+//async function for backgroungd proces
     async componentDidMount() {
       try {
         const res = await fetch('http://localhost:8000/api/todos/');
